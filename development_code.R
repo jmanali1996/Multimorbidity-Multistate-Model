@@ -33,7 +33,7 @@ mstrain <- msprep(data = train, trans = tmat, time = c(NA, "o2", "o3", "o4", "o5
                   keep = c("Age", "gender", "BMI", "Cholhdl_ratio", "Ethnicity6", "SBP", "Smoking", "IMD"))
 events(mstrain)
 
-#CUMULATIVE HAZARDS
+#CREATION OF TRANSITION-SPECIFIC COVARIATES
 covs <- c("Age", "gender", "BMI", "Cholhdl_ratio", "Ethnicity6", "SBP", "Smoking", "IMD")
 mstrain <- expand.covs(mstrain, covs, longnames = FALSE)
 mstrain[, c("Tstart", "Tstop", "time")] <- mstrain[, c("Tstart", "Tstop", "time")]/365.25 #to convert days into years
