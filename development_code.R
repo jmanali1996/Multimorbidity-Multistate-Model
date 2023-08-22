@@ -50,7 +50,7 @@ cfull <- coxph(Surv(Tstart, Tstop, status) ~ Age.1 + Age.2 + Age.3 + Age.4 + Age
                  Cholhdl_ratio.10 + Cholhdl_ratio.11 + Cholhdl_ratio.12 + Cholhdl_ratio.13 + Cholhdl_ratio.14 + 
                  Cholhdl_ratio.15 + Cholhdl_ratio.16 + Cholhdl_ratio.17 + Cholhdl_ratio.18 + Cholhdl_ratio.19 + 
                  Cholhdl_ratio.20 + Ethnicity61.1 + Ethnicity61.2 + Ethnicity61.3 + Ethnicity61.4 + Ethnicity61.5 +
-                 Ethnicity61.6 +Ethnicity61.7 + Ethnicity61.8 + Ethnicity61.9 +Ethnicity61.10 + Ethnicity61.11 +
+                 Ethnicity61.6 + Ethnicity61.7 + Ethnicity61.8 + Ethnicity61.9 +Ethnicity61.10 + Ethnicity61.11 +
                  Ethnicity61.12 + Ethnicity61.13 + Ethnicity61.14 + Ethnicity61.15 + Ethnicity61.16 + Ethnicity61.17 +
                  Ethnicity61.18 + Ethnicity61.19 + Ethnicity61.20 + Ethnicity62.1 + Ethnicity62.2 + Ethnicity62.3 +
                  Ethnicity62.4 + Ethnicity62.5 + Ethnicity62.6 + Ethnicity62.7 + Ethnicity62.8 + Ethnicity62.9 +
